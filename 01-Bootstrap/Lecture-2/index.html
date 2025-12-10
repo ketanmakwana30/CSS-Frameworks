@@ -75,9 +75,52 @@
 
     <div class="container">
         <h2>Form Demo</h2>
-        <form action="/" class="mb-3">
+        <form action="/">
+
+          <div class="row">
+            <div class="mb-3 col-sm-12 col-lg-6">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="E-mail" class="form-control">
+            <input type="email" name="email" id="email" placeholder="Enter Email" class="form-control">
+          </div>
+
+          <div class="mb-3 col-sm-12  col-lg-6">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" class="form-control">
+          </div>
+
+          </div>
+         
+          <!-- Dropdown -->
+
+          <div class="" style="margin-bottom: 200px ;">
+            <select name="city" id="city" class="form-select">
+              <option selected>Select your city</option>
+              <option value="bhavnagar">bhavnagar</option>
+              <option value="surat">surat</option>
+              <option value="ahmedabad">ahmedabad</option>
+              <option value="bhuj">bhuj</option>
+            </select>
+          </div>
+
+          <!-- Checkbox -->
+
+          <div class="normal mb-3">
+            <input class="form-check-input" type="checkbox" id="agree">
+            <label class="form-check-label" for="agree">Agree</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Agree</label>
+          </div><br>
+
+          <!-- Radio -->
+
+          <div class="form-check form-switch">
+            <input class="form-check-input" role="switch" type="radio" id="boot1" name="radiobtn">
+            <label class="form-check-label" for="boot1">Option 1</label>
+           
+          </div>
+
         </form>
     </div>
 
